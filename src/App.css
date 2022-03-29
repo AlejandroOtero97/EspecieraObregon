@@ -25,6 +25,7 @@ a {
     background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
     /* global 92%+ browsers support */
     background:url("https://images.unsplash.com/photo-1553025934-296397db4010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+    background-repeat: no-repeat;
     height: 100vh;
 }
 

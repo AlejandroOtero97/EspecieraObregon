@@ -104,6 +104,62 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1600px) {
+    .gpt3__header-content p {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 1rem;
+    }
+    .gpt3__header-content h1 {
+        font-size: 50px;
+        margin-top: -1rem;
+    }
+    .gpt3__header-content__input {
+        margin-top: 5rem;
+    }
+    .gpt3__header-content__people {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .gpt3__header-content p {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 1rem;
+    }
+    .gpt3__header-content h1 {
+        font-size: 50px;
+        margin-top: -1rem;
+    }
+    .gpt3__header-content__input {
+        margin-top: 5rem;
+    }
+    .gpt3__header-content__people {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .gpt3__header-content p {
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 1rem;
+    }
+    .gpt3__header-content h1 {
+        font-size: 40px;
+        margin-top: -3rem;
+    }
+    .gpt3__header-content__input {
+        margin-top: 3rem;
+    }
+    .gpt3__header-content__people {
+        margin-top: 1rem;
+    }
+}
 
 @media screen and (max-width: 1050px) {
     .gpt3__header {
