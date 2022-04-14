@@ -8,8 +8,9 @@ const Menu = () => (
   <>
     <p><a href="#home">Hogar</a></p>
     <p><a href="#whrw">Quienes Somos</a></p>
-    <p><a href="#possibility">Productos</a></p>
-    <p><a href="#blog">Contactanos!</a></p>
+    <p><a href="#features">Productos</a></p>
+    <p><a href="#blog">Mapa & Productos</a></p>
+    <p><a href="#footer">Informacion General</a></p>
   </>
 )
 
@@ -17,7 +18,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className='gpt3__navbar'>
+    <div className='gpt3__navbar' id='home'>
       <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
           <img src={logo} alt="logo" />
@@ -27,8 +28,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='gpt3__navbar-sign'>
-        <p>Sign In</p>
-        <button type='button'>Sign In</button>
+        <p>Registrate</p>
+        <button type='button'>Ingresá!</button>
       </div>
       <div className='gpt3__navbar-menu'>
         {toggleMenu

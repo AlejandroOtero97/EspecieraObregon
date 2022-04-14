@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 
-    background: var(--color-footer);
+    background: rgb(100, 100, 100);
 }
 
 .gpt3__footer-heading {
@@ -38,7 +38,7 @@
 .gpt3__footer-btn p {
     box-sizing: border-box;
     font-family: var(--font-family);
-    font-size: 18px;
+    font-size: 30px;
     line-height: 21px;
     color: #FFFFFF;
     word-spacing: 2px;
@@ -137,6 +137,12 @@
     .gpt3__footer-heading p {
         font-size: 14px;
         line-height: 20px;
+    }
+    .gpt3__footer i {
+        font-size: 15px;
+    }
+    .gpt3__footer-btn p {
+        font-size: 18px;
     }
 }
 

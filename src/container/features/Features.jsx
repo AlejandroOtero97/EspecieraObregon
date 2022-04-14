@@ -5,20 +5,20 @@ import './features.css';
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
+    title: "Granos y Semillas",
+    text: "Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2"
   },
   {
-    title: "Become the tended active",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
+    title: "Frutos Secos",
+    text: "Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2"
   },
   {
-    title: "Message or am nothing",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
+    title: "Condimentos",
+    text: "Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2"
   },
   {
-    title: "Really boy law county",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded."
+    title: "Especias",
+    text: "Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2, Producto 1, Producto 2"
   },
 ]
 
@@ -27,9 +27,8 @@ const Features = () => {
     <div className='gpt3__features section__padding' id='features'>
       <div className='gpt3__features-heading'>
         <h1 className='gradient__text'>
-        The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
+        El futuro del mercado se encuentra aqui y estos son algunos de nuestros productos!
         </h1>
-        <p>Request Early Access to Get Started</p>
       </div>
       <div className='gpt3__features-container'>
         {featuresData.map((item, index) =>(
